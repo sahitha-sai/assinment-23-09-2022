@@ -112,43 +112,42 @@
     margin: 20px 0 0;
     font-size: 1.5rem;
 }
-    .u-text-3 {
-        margin: 40px 0 0;
-        font-family: 'Open Sans',sans-serif;
-        line-height: 1.8;
-        color: #111111;
+.u-text-3 {
+    margin: 40px 0 0;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.8;
+    color: #111111;
     }
-    .u-text-4 {
-        margin: 30px 0 0;
-        font-size: 1.125rem;
-        font-weight: bold;
+.u-text-4 {
+    margin: 30px 0 0;
+    font-size: 1.125rem;
+    font-weight: bold;
     }
-    .u-text-5 {
-        font-size: 0.875rem;
-        font-style: italic;
-        margin: 20px 0 0;
-        line-height: 1.8;
+.u-text-5 {
+    font-size: 0.875rem;
+    font-style: italic;
+    margin: 20px 0 0;
+    line-height: 1.8;
     }
-    .section1-card{
-        display: flex;
-        flex-direction: row;
-        margin-top: 50px;
-        
-    }
-    
-    .creative-solutions-card{
-        margin-right:10px;
-        background-color:  whitesmoke;
-        border-radius: 10px;
-        padding: 20px;
+.section1-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
     }
     
-    .clean-card{
-        margin-left:10px;
-        background-color:  whitesmoke;
-        border-radius: 10px;
-        padding: 20px;
+.creative-solutions-card{
+    margin-right:10px;
+    background-color:  whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
     }
+    
+.clean-card{
+    margin-left:10px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
 .smart-area p:nth-last-of-type(2){
     float:right;
     margin-right: 8%;
@@ -196,10 +195,12 @@
 .section{
     display: flex;
     flex-direction: row;
+    
 }
 .img1-container{
     height: 400px;
     width: 500px;
+    filter: grayscale(100%);
 }
 .unique-area{
         position:relative;
@@ -274,11 +275,15 @@
     font-size: 18px;
     line-height: 40px;
     padding-top: 20px;
-} 
+}
+.product-img{
+    margin-right: 320px;
+}
 .productimg{
     height: 400px;
     width: 100%;
     margin-top: 5%;
+    
 }
 .pink-container{
     color:rgb(248,10,90);
@@ -389,6 +394,40 @@ height:900px;
     margin-left: 30px;
     margin-right: 30px;
     
+}
+@media screen and (max-width: 1400px){
+    .list-area{
+        margin-left: 85px;
+    }
+    .product-img{
+        margin-right: 88px;
+    }
+    .img1-container{
+        height:450px;
+        width: 400px;
+        filter: grayscale(100%);
+    }
+    .unique-area{
+        height:450px;
+        width:500px; 
+    }
+    .section1-text-card{
+        margin-top: 30px;
+    }
+    .list-boxes{
+        margin-top:-90px;
+    }
+    .best-container{
+        margin-left: 50px;
+    }
+    .studio-name{
+        margin-left: 130px;
+    }
+    .icon-area {
+        
+        margin-left: 87%;
+       
+    }
 }
 
 
